@@ -4,7 +4,7 @@ KeyNest is a private library for the API keys, tokens and secrets you use when y
 
 It is made for people who build with AI coding tools. Those tools can save a copy of any key you paste into a chat, in plain text in their own folders. KeyNest finds keys left lying around like that, sorts them by who could actually reach them, and helps you move them into the vault.
 
-A portfolio project led by Cameron Pittaway, who made the product, design and business decisions.
+A portfolio project by Cameron Pittaway. I made the product, design and business decisions.
 
 ## Download and code
 
