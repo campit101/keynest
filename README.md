@@ -1,20 +1,22 @@
 # KeyNest
 
+**Problem:** API keys and secrets end up in plain text in .env files, code and tool folders, where other people can reach them.
+
+**What I built:** A free offline Windows app that keeps them in an encrypted vault and finds loose keys on your PC, sorted by who could reach them.
+
+**Result:** 176 automated tests pass and a source-only security review found no confirmed vulnerability. It is an early preview with no independent review yet. Read the [case study](CASE-STUDY.md).
+
 KeyNest is a private library for the API keys, tokens and secrets you use when you build software. It runs on Windows, keeps everything in an encrypted vault on your own PC, and never sends your keys anywhere. There is no account, no subscription and no cloud copy.
 
 It is made for people who build with AI coding tools. Those tools can save a copy of any key you paste into a chat, in plain text in their own folders. KeyNest finds keys left lying around like that, sorts them by who could actually reach them, and helps you move them into the vault.
 
 A portfolio project by Cameron Pittaway. I made the product, design and business decisions.
 
-## Download and code
-
-Download: [KeyNest 0.1.0 preview for Windows](https://github.com/campit101/keynest/releases/tag/v0.1.0) (installer, about 3.5 MB)
-
-SHA-256 of `KeyNest_0.1.0_x64-setup.exe`: `0fdaa160567d2527f1f197198fc5cb93245885659ed0337fd11419ed45796e54`
+## Code
 
 Code: private. This repository is a showcase only: it holds this page, the case study and screenshots, not the source code.
 
-**This is an early preview.** The installer is not code-signed yet, so Windows SmartScreen will warn you before it runs (choose More info, then Run anyway). KeyNest has not had an independent security review yet. Keep your own copies of anything important, and use the backup feature.
+**This is an early preview.** KeyNest has not had an independent security review yet, and it is not code-signed yet.
 
 ## Screenshots
 
@@ -67,7 +69,6 @@ Every key, project and file in these screenshots is made up.
 - KeyNest itself makes no network connections: no analytics, no accounts, no crash reports, no cloud copy. It draws its screens with WebView2, a part of Windows made by Microsoft, and WebView2 can open its own connection to Microsoft.
 - The vault lives in a `KeyNest` folder in your Windows user folder. Backups stay encrypted, and open with your master password or your recovery code.
 - If you lose your master password and your recovery code, nobody can open the vault, including the maker.
-- A source-only security review, quick profile, found no confirmed vulnerability. It raised two leads, and both were fixed with tests (3 November 2026).
 - Not yet done: an independent security review and code signing.
 
 ## System requirements
