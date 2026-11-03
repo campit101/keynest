@@ -8,7 +8,7 @@
 
 KeyNest is a private library for the API keys, tokens and secrets you use when you build software. It runs on Windows, keeps everything in an encrypted vault on your own PC, and never sends your keys anywhere. There is no account, no subscription and no cloud copy.
 
-It is made for people who build with AI coding tools. Those tools can save a copy of any key you paste into a chat, in plain text in their own folders. KeyNest finds keys left lying around like that, sorts them by who could actually reach them, and helps you move them into the vault.
+It is made for developers. Coding tools can save a copy of any key you paste into a chat, in plain text in their own folders. KeyNest finds keys left lying around like that, sorts them by who could actually reach them, and helps you move them into the vault.
 
 A portfolio project by Cameron Pittaway. I made the product, design and business decisions.
 
@@ -77,6 +77,6 @@ Windows 10 or 11, 64-bit, with WebView2 (built into Windows 11 and most up-to-da
 
 ## Licence
 
-All rights reserved. The installer is free to use. The source code is not published.
+All rights reserved. The source code is not published.
 
 Contact: tarnfield.studio@gmail.com
