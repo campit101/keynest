@@ -1,10 +1,10 @@
 # KeyNest: case study
 
-KeyNest is a free Windows app that keeps API keys, tokens and secrets in an encrypted vault on your own PC, and finds keys left lying around in plain text, especially by AI coding tools. It is an early preview. It isn't available to download yet, but you can [try it in your browser](https://keynest-demo.pages.dev/) with made-up data. The source code stays private.
+KeyNest is a Windows app that keeps API keys, tokens and secrets in an encrypted vault on your own PC, and finds keys left lying around in plain text, especially by AI coding tools. It is an early preview. It isn't available to download yet, but you can [try it in your browser](https://keynest-demo.pages.dev/) with made-up data. The source code stays private.
 
 ## The brief
 
-People who build software with AI coding tools collect API keys fast: one for the model, one for payments, one for the database, one for email. Most of them end up in `.env` files, notes and chat history. I wanted a tool for that person: free, offline, no account, and plain enough for a beginner.
+People who build software with AI coding tools collect API keys fast: one for the model, one for payments, one for the database, one for email. Most of them end up in `.env` files, notes and chat history. I wanted a tool for that person: offline, no account, and plain enough for a beginner.
 
 I am not a developer. I led the project and made the product, design and money decisions.
 

@@ -2,7 +2,7 @@
 
 **Problem:** API keys and secrets end up in plain text in .env files, code and tool folders, where other people can reach them.
 
-**What I built:** A free offline Windows app that keeps them in an encrypted vault and finds loose keys on your PC, sorted by who could reach them.
+**What I built:** An offline Windows app that keeps them in an encrypted vault and finds loose keys on your PC, sorted by who could reach them.
 
 **Result:** 176 automated tests pass and a source-only security review found no confirmed vulnerability. It is an early preview with no independent review yet. Read the [case study](CASE-STUDY.md).
 
