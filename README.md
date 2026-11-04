@@ -20,7 +20,7 @@ Try KeyNest in your browser: [keynest-demo.pages.dev](https://keynest-demo.pages
 
 Code: private. This repository is a showcase only: it holds this page, the case study and screenshots, not the source code.
 
-**This is an early preview.** KeyNest has not had an independent security review yet, and it is not code-signed yet.
+**This is an early preview.** KeyNest has not had an independent security review yet, and it is not code-signed yet. It isn't available to download yet, but you can [try it in your browser](https://keynest-demo.pages.dev/).
 
 ## Screenshots
 
@@ -66,7 +66,6 @@ Every key, project and file in these screenshots is made up.
 - Window tests that drive the real app, covering setup, keys, projects, Quick Access, Health, backups and the scans, pass on the production build (1 November 2026).
 - On one developer's PC, 96% of the 99,863 files a full user-folder scan would have opened were other people's code, such as installed tool documentation. The scan now leaves those folders out (1 November 2026).
 - A source-only security review, quick profile, found no confirmed vulnerability. It raised two leads, and both were fixed with tests (3 November 2026).
-- Installer size: 3,701,160 bytes (3 November 2026).
 
 ## Security and privacy
 
