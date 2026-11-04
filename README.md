@@ -12,6 +12,10 @@ It is made for developers. Coding tools can save a copy of any key you paste int
 
 A portfolio project by Cameron Pittaway. I made the product, design and business decisions.
 
+## Try it
+
+Try KeyNest in your browser: [keynest-demo.pages.dev](https://keynest-demo.pages.dev/). It uses the app's real screens with made-up keys, projects and files. Nothing in it is encrypted, saved or sent anywhere, and reloading the page starts it again, so don't type real keys into it.
+
 ## Code
 
 Code: private. This repository is a showcase only: it holds this page, the case study and screenshots, not the source code.
