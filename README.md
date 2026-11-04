@@ -79,4 +79,4 @@ Windows 10 or 11, 64-bit, with WebView2 (built into Windows 11 and most up-to-da
 
 All rights reserved. The source code is not published.
 
-Contact: tarnfield.studio@gmail.com
+Contact: contact@tarnfieldstudio.com
